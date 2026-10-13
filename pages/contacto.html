@@ -25,8 +25,33 @@
       </nav>
     </header>
     <main>
-      <h1>Contacto</h1>
-      <p>Pagina en construccion</p>
+      <section class="contacto">
+        <h1 class="title-contacto text-secondary">Contacta con nosotros</h1>
+        <!-- modify this form HTML and place wherever you want your form -->
+        <form
+          class="form-contacto"
+          action="https://formspree.io/f/xppqjeaj"
+          method="POST"
+        >
+          <div class="grupo-input">
+            <label>
+              Email:
+              <input type="email" name="email" />
+            </label>
+          </div>
+
+          <div class="grupo-input">
+            <label>
+              Mensaje:
+              <textarea name="message"></textarea>
+            </label>
+          </div>
+          <!-- your other form fields go here -->
+          <button class="btn bg-secondary text-secondary" type="submit">
+            Enviar
+          </button>
+        </form>
+      </section>
     </main>
     <footer>
       <p>Holozon hecho por Kevin</p>
